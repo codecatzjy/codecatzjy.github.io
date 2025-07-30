@@ -1,4 +1,3 @@
-<meta charset="UTF-8">
 const CountdownTimer = (() => {
     const config = {
         targetDate: "2026-02-17",
