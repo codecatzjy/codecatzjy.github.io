@@ -1,7 +1,8 @@
+<meta charset="UTF-8">
 const CountdownTimer = (() => {
     const config = {
         targetDate: "2026-02-17",
-        targetName: һ,
+        targetName: "һ",
         units: {
             day: { text: "����", unit: "Сʱ" },
             week: { text: "����", unit: "��" },
