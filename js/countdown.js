@@ -1,12 +1,12 @@
 const CountdownTimer = (() => {
     const config = {
         targetDate: "2026-02-17",
-        targetName: "��",
+        targetName: "春节",
         units: {
-            day: { text: "����", unit: "Сʱ" },
-            week: { text: "����", unit: "��" },
-            month: { text: "����", unit: "��" },
-            year: { text: "����", unit: "��" }
+            day: { text: "今日", unit: "小时" },
+            week: { text: "本周", unit: "天" },
+            month: { text: "本月", unit: "天" },
+            year: { text: "本年", unit: "天" }
         }
     };
 
@@ -71,7 +71,7 @@ const CountdownTimer = (() => {
                             <div class="cd-progress-bar" style="width: ${percentage}%; opacity: ${percentage / 100}"></div>
                             <span class="cd-percentage ${percentage >= 46 ? 'cd-many' : ''}">${percentage.toFixed(2)}%</span>
                             <span class="cd-remaining ${percentage >= 60 ? 'cd-many' : ''}">
-                                <span class="cd-tip">��ʣ</span>${remaining}<span class="cd-tip">${unit}</span>
+                                <span class="cd-tip">还剩</span>${remaining}<span class="cd-tip">${unit}</span>
                             </span>
                         </div>
                     </div>
